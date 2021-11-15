@@ -1,0 +1,195 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'pt' Physical Memory: 3942 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.15f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Guilherme/Jogos/SistemaSolar
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+54125
+Successfully changed project path to: C:/Users/Guilherme/Jogos/SistemaSolar
+C:/Users/Guilherme/Jogos/SistemaSolar
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 112.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f2 (6cf78cb77498)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Guilherme/Jogos/SistemaSolar/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x116)
+    Vendor:   
+    VRAM:     128 MB
+    Driver:   9.17.10.4459
+Could not load symbol clCreateImage : Não foi possível encontrar o procedimento especificado.
+
+
+Could not load symbol clEnqueueFillBuffer : Não foi possível encontrar o procedimento especificado.
+
+
+Could not load symbol clEnqueueFillImage : Não foi possível encontrar o procedimento especificado.
+
+
+Could not load symbol clEnqueueMarkerWithWaitList : Não foi possível encontrar o procedimento especificado.
+
+
+Could not load symbol clGetExtensionFunctionAddressForPlatform : Não foi possível encontrar o procedimento especificado.
+
+
+Could not load symbol clUnloadPlatformCompiler : Não foi possível encontrar o procedimento especificado.
+
+
+Could not load symbol clCreateFromGLTexture : Não foi possível encontrar o procedimento especificado.
+
+
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008263 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 73.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.893 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7894ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (954ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.044432 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (12017ms)
+		BeginReloadAssembly (604ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (11208ms)
+			LoadAssemblies (411ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2117ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (216ms)
+			SetupLoadedEditorAssemblies (7624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (184ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (3865ms)
+				ProcessInitializeOnLoadAttributes (3523ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.42 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1399 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.4 MB.
+System memory in use after: 65.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1833.
+Total: 7.941400 ms (FindLiveObjects: 0.347300 ms CreateObjectMapping: 0.118600 ms MarkObjects: 7.229300 ms  DeleteObjects: 0.242600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/LookAtTarget.cs
+  artifactKey: Guid(2a9faa4caff1708459a24925e365243a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LookAtTarget.cs using Guid(2a9faa4caff1708459a24925e365243a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6605f75554c8e9389430a99dc711aeee') in 0.126080 seconds 
+  Import took 0.134815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.839793 seconds.
+  path: Assets/Scripts/LookAtTarget.cs
+  artifactKey: Guid(2a9faa4caff1708459a24925e365243a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LookAtTarget.cs using Guid(2a9faa4caff1708459a24925e365243a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe5c0a21d67d33497a52255ce2eedfc') in 0.009891 seconds 
+  Import took 0.022203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008939 seconds.
+  path: Assets/Scripts/LookAtTarget.cs
+  artifactKey: Guid(2a9faa4caff1708459a24925e365243a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LookAtTarget.cs using Guid(2a9faa4caff1708459a24925e365243a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe5c0a21d67d33497a52255ce2eedfc') in 0.014383 seconds 
+  Import took 0.033564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 262.781990 seconds.
+  path: Assets/Scripts/LookAtTarget.cs
+  artifactKey: Guid(2a9faa4caff1708459a24925e365243a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LookAtTarget.cs using Guid(2a9faa4caff1708459a24925e365243a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54295aa71edad4c148d3e6f49f309755') in 0.024528 seconds 
+  Import took 0.081571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022272 seconds.
+  path: Assets/Scripts/LookAtTarget.cs
+  artifactKey: Guid(2a9faa4caff1708459a24925e365243a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LookAtTarget.cs using Guid(2a9faa4caff1708459a24925e365243a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54295aa71edad4c148d3e6f49f309755') in 0.017838 seconds 
+  Import took 0.026497 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
